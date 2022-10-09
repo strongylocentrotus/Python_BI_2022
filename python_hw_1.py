@@ -1,4 +1,6 @@
 #! /usr/bin/python 
+
+
 def transcribe(seq):
     """Prints the transcribed sequence"""
     transcription_seq = ""
