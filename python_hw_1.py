@@ -43,20 +43,20 @@ def reverse_complement(seq):
     print(rev_compl)
     return rev_compl
 
-def check_pept(seq): 
-    na = ["U", "T"]
+def check_letters(seq): 
+    nucl = ["U", "T"]
     up_seq = seq.upper()
     for letter in seq:
-        result = all(letter in up_seq for letter in na)
+        result = all(letter in up_seq for letter in nucl)
         if result:
             return False
     return True
 
-def check_seq(seq):
-    """Checks the alphabet of input sequence"""
+def check_pept(seq):
+    """Checks letters of input sequence"""
     check_dic = ["A", "T", "G", "C", "U",
                 "a", "t", "g", "c", "u"]
-    if check_pept(seq) == False:
+    if check_letters(seq) == False:
         return False
     else: 
         for letter in seq:
@@ -81,7 +81,7 @@ if __name__ == "__main__":
         else:
             print("Enter the sequence")
             seq = str(input())
-            while check_seq(seq) == False:
+            while check_pept(seq) == False:
                 print("Invalid alphabet! Enter another sequence")
                 seq = str(input())  
             else:
