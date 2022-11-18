@@ -1,6 +1,6 @@
 # Python_BI_2022
 
-Here is my homeworks for the Python course (September-December, 2022) in the Bioinformatics Institute.
+Here is my homeworks for the Python course.
 
 ## Homework 6 
 
