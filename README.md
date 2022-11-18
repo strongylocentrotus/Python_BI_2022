@@ -1,6 +1,6 @@
 # Python_BI_2022
 
-Here is my homeworks for the Python course.
+Here is my homeworks for your Python course.
 
 ## Homework 6 
 
